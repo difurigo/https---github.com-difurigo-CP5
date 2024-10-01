@@ -1,11 +1,4 @@
-module.exports = {
-  async redirects() {
-    return [
-      {
-        source: "/old-route",
-        destination: "/",
-        permanent: true,
-      },
-    ];
-  },
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+export default nextConfig;
