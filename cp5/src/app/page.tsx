@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -12,11 +13,7 @@ const Home = () => {
           Este projeto ilustra as principais ideias de Velikovsky sobre eventos
           cósmicos que influenciaram a história da Terra.
         </p>
-        <img
-          src="/images/velikovsky.jpg"
-          alt="Ilustração de Velikovsky"
-          className="mx-auto mt-8 w-1/2"
-        />
+        <Image src="/velikovsky.png" alt="velikovsky" width={200} height={50} layout="responsive"/>
       </div>
     </Layout>
   );

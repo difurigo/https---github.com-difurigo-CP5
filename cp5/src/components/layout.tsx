@@ -19,12 +19,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <body className="bg-gray-50 text-gray-800">
         <header className="bg-blue-500 text-white py-4">
           <div className="container mx-auto">
-            <h1 className="text-4xl font-bold">Projeto Worlds in Collision</h1>
+            <h1 className="Nome_Projeto">Projeto Worlds in Collision</h1>
           </div>
         </header>
-        <main className="container mx-auto py-8">{children}</main>
+        <main className="container">{children}</main>
         <footer className="bg-blue-500 text-white py-4 text-center">
-          <p>&copy; 2024 Velikovsky Team. Todos os direitos reservados.</p>
         </footer>
       </body>
     </html>
