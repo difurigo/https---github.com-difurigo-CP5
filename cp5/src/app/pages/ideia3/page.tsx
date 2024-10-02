@@ -12,4 +12,4 @@ function Ideia2() {
     );
 };
 
-export default Ideia2;
+export default Ideia3;

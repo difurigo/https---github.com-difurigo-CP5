@@ -37,3 +37,90 @@
 .not-found-image {
     @apply rounded-lg shadow-md;
 }
+
+/* Custom styles using @apply */
+.example-container {
+    @apply flex flex-col items-center justify-center min-h-screen bg-gray-100 text-center p-4;
+}
+
+.example-title {
+    @apply text-4xl font-bold text-gray-800 mb-4;
+}
+
+.example-description {
+    @apply text-lg text-gray-600 mb-6 max-w-2xl;
+}
+
+.example-button {
+    @apply bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200;
+}
+
+
+/* Custom styles using @apply */
+.idea-page {
+    @apply flex flex-col items-center justify-center min-h-screen bg-gray-100 text-center p-4;
+}
+
+.idea-title {
+    @apply text-3xl font-bold text-gray-800 mb-4;
+}
+
+.idea-description {
+    @apply mt-4 text-lg text-gray-600 mb-6 max-w-2xl;
+}
+
+.idea-image {
+    @apply rounded-lg shadow-md mt-6;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles using @apply */
+.idea-page {
+    @apply flex flex-col items-center justify-center min-h-screen bg-gray-100 text-center p-4;
+}
+
+.idea-title {
+    @apply text-3xl font-bold text-gray-800 mb-4;
+}
+
+.idea-description {
+    @apply mt-4 text-lg text-gray-600 mb-6 max-w-2xl;
+}
+
+.idea-image {
+    @apply rounded-lg shadow-md mt-6;
+}
+
+@tailwi
+
+/* Custom styles using @apply */
+.calculation-page {
+    @apply flex flex-col items-center justify-center min-h-screen bg-gray-100 text-center p-4;
+}
+
+.calculation-title {
+    @apply text-3xl font-bold text-gray-800 mb-4;
+}
+
+.calculation-description {
+    @apply mt-4 text-lg text-gray-600 mb-6 max-w-2xl;
+}
+
+.calculation-formula {
+    @apply mt-8 p-4 bg-gray-200 border border-gray-300 rounded;
+}
+
+.formula-title {
+    @apply text-xl font-bold text-gray-800;
+}
+
+.formula-description {
+    @apply mt-4 text-gray-600;
+}
+
+.calculation-image {
+    @apply rounded-lg shadow-md mt-6;
+}
