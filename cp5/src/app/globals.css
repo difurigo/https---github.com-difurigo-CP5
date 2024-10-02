@@ -73,9 +73,6 @@
     @apply rounded-lg shadow-md mt-6;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* Custom styles using @apply */
 .idea-page {
@@ -94,7 +91,6 @@
     @apply rounded-lg shadow-md mt-6;
 }
 
-@tailwi
 
 /* Custom styles using @apply */
 .calculation-page {
