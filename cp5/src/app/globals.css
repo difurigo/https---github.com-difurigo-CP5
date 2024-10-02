@@ -2,37 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .nav-link {
-    @apply color: blue; /* Altera a cor do link */
-    text-decoration: underline; /* Adiciona sublinhado */
-  }
+li {
+  color: blue; /* Define a cor dos links */
+  text-decoration: underline; /* Adiciona sublinhado */
+}
 
-  .nav-link:hover {
-    @apply color: darkblue; /* Altera a cor quando o usuário passa o mouse */
-    text-decoration: underline; /* Mantém o sublinhado */
-  }
+li:hover {
+  color: darkblue; /* Muda a cor dos links ao passar o mouse */
+  text-decoration: underline; /* Mantém o sublinhado */
+}
 
-  .text-center {
-    @apply flex flex-col items-center justify-center min-h-screen p-8 bg-gray-100;
-  }
+.text-center {
+  @apply flex flex-col items-center justify-center min-h-screen p-8 bg-gray-100;
+}
 
-  .text-3xl {
-    @apply text-4xl font-bold text-gray-800 mb-4;
-  }
+.text-3xl {
+  @apply text-4xl font-bold text-gray-800 mb-4;
+}
 
-  .descricao {
-    @apply mt-4 text-lg text-gray-600 text-center max-w-2xl;
-  }
+.descricao {
+  @apply mt-1 text-lg text-gray-600;
+}
 
-  .home-image {
-    @apply mt-8 w-full max-w-lg rounded-lg shadow-md;
-  }
+.home-image {
+  @apply mt-8 w-full max-w-lg rounded-lg shadow-md;
 }
 
 /* Custom styles using @apply */
 .not-found-container {
-  @apply flex flex-col items-center justify-center min-h-screen bg-gray-100 text-center p-4;
+  @apply flex flex-col items-center justify-center min-h-screen bg-black text-center p-4;
 }
 
 .not-found-title {
@@ -62,6 +60,9 @@
 
 .example-button {
   @apply bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200;
+}
+.example-image {
+  @apply rounded-lg shadow-md mt-6;
 }
 
 /* Custom styles using @apply */

@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import "@/app/globals.css";
 
 function Calculo() {
     return (
@@ -17,6 +19,13 @@ function Calculo() {
             <strong>m1</strong> e <strong>m2</strong> = Massas dos corpos <br />
             <strong>r</strong> = Distância entre os corpos
             </p>
+            <nav>
+                <ul>
+                    <li>
+                        <Link href="/">Home</Link>
+                    </li>
+                </ul>
+            </nav>
         </div>
         <Image src="/calculo.png" alt="Página de Erro" width={200} height={50} layout="responsive"/>
         </div>

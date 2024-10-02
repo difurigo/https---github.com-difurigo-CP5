@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Ideia3() {
     return (
@@ -7,6 +8,13 @@ function Ideia3() {
         <p className="mt-4 text-lg">
         A terceira ideia aborda como impactos de asteroides e outros corpos celestes podem ter sido responsáveis por grandes extinções e mudanças no desenvolvimento humano.
         </p>
+        <nav>
+                <ul>
+                    <li>
+                        <Link href="/">Home</Link>
+                    </li>
+                </ul>
+            </nav>
         <Image src="/asteroides.png" alt="Página de Erro" width={200} height={50} layout="responsive"/>
         </div>
     );

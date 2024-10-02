@@ -3,7 +3,7 @@ import "@/app/globals.css"
 
 export default function NotFound() {
   return (
-    <div>
+    <div className="not-found-container ">
         <h1 className="not-found-title">
           404: Page Not Found
           </h1>

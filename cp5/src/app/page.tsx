@@ -5,6 +5,7 @@ import Link from "next/link";
 
 const Home = () => {
   return (
+    <div className="not-found-container">
       <div className="text-center">
         <h2 className="text-3xl">
           Bem-vindo ao Projeto: Worlds in Collision
@@ -13,9 +14,6 @@ const Home = () => {
         <h3>Tres principais ideias e um cálculo proposto por Velikovsky:</h3>
         <nav>
             <ul>
-                <li>
-                    <Link href="/">Home</Link>
-                </li>
                 <li>
                     <Link href="/pages/ideia1">Ideia 1</Link>
                 </li>
@@ -37,6 +35,7 @@ const Home = () => {
         </p>
         <Image src="/velikovsky.png" alt="velikovsky" width={200} height={50} layout="responsive" className="home-image"/>
         
+      </div>
       </div>
   );
 };
