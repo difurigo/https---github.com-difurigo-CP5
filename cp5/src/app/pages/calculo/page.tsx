@@ -17,7 +17,7 @@ function Calculo() {
             <strong>r</strong> = Distância entre os corpos
             </p>
         </div>
-        <Image src="/cachorro-404.png" alt="Página de Erro" width={200} height={50} layout="responsive"/>
+        <Image src="/calculo.png" alt="Página de Erro" width={200} height={50} layout="responsive"/>
         </div>
     );
 };
