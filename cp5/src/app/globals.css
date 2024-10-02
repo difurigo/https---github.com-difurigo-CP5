@@ -17,3 +17,21 @@
 .home-image {
     @apply mt-8 w-full max-w-lg rounded-lg shadow-md;
 }
+
+
+/* Custom styles using @apply */
+.not-found-container {
+    @apply flex flex-col items-center justify-center min-h-screen bg-gray-100 text-center p-4;
+}
+
+.not-found-title {
+    @apply text-4xl font-bold text-gray-800 mb-4;
+}
+
+.not-found-subtitle {
+    @apply text-lg text-gray-600 mb-6;
+}
+
+.not-found-image {
+    @apply rounded-lg shadow-md;
+}
