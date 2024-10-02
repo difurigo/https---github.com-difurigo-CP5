@@ -1,10 +1,9 @@
 import React from "react";
-import Layout from "../components/layout";
 import Image from "next/image";
+import "@/app/globals.css" 
 
 const Home = () => {
   return (
-    <Layout>
       <div className="text-center">
         <h2 className="text-3xl">
           Bem-vindo ao Projeto: Worlds in Collision
@@ -15,7 +14,6 @@ const Home = () => {
         </p>
         <Image src="/velikovsky.png" alt="velikovsky" width={200} height={50} layout="responsive" className="home-image"/>
       </div>
-    </Layout>
   );
 };
 

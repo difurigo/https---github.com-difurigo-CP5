@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
 .text-center {
     @apply flex flex-col items-center justify-center min-h-screen p-8 bg-gray-100;
 }
@@ -16,6 +17,7 @@
 
 .home-image {
     @apply mt-8 w-full max-w-lg rounded-lg shadow-md;
+}
 }
 
 
