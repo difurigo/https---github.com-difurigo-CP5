@@ -7,6 +7,7 @@ function Calculo() {
         <p className="mt-4 text-lg">
             Velikovsky propôs um cálculo para determinar a influência gravitacional de encontros próximos com planetas e seus efeitos no eixo terrestre.
         </p>
+        <p>Velikovsky utilizava fórmulas simplificadas e intuitivas para tentar explicar interações gravitacionais e magnéticas entre corpos celestes. Embora suas ideias fossem rejeitadas pela comunidade científica, elas popularizaram a discussão sobre o impacto de eventos cósmicos na história da Terra.</p>
         <div className="mt-8 p-4 bg-gray-100 border border-gray-300 rounded">
           <h2 className="text-xl font-bold">Fórmula: F = G * (m1 * m2) / r²</h2>
             <p className="mt-4">
