@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "@/app/globals.css" 
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -13,6 +14,26 @@ const Home = () => {
           cósmicos que influenciaram a história da Terra.
         </p>
         <Image src="/velikovsky.png" alt="velikovsky" width={200} height={50} layout="responsive" className="home-image"/>
+        <h3>Tres principais ideias e um cálculo proposto por Velikovsky:</h3>
+        <nav>
+            <ul>
+                <li>
+                    <Link href="/">Home</Link>
+                </li>
+                <li>
+                    <Link href="/pages/ideia1">Ideia 1</Link>
+                </li>
+                <li>
+                    <Link href="/pages/ideia2">Ideia 2</Link>
+                </li>
+                <li>
+                    <Link href="/pages/ideia3">Ideia 3</Link>
+                </li>
+                <li>
+                    <Link href="/pages/calculo">Cálculo</Link>
+                </li>
+            </ul>
+        </nav>
       </div>
   );
 };
